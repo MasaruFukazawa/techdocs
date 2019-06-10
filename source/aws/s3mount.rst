@@ -92,3 +92,20 @@ sudo で ロート権限でマウントするとき ( ※ aws cli 環境 を設�
     --file-mode, ファイルのパーミッション, 0777
     --uid, マウントするユーザーIDを指定する, 500
     --gid, マウントするグループIDを指定する, 500
+
+
+reboot時の自動マウント
+---------------------------------------
+
+.. code-block:: bash
+
+    $ sudo emacs /etc/fstab
+    /home/ec2-user/go/bin/goofys --region ap-northeast-1 -o allow_other --dir-mode=0777 --file-mode=0777 --uid=500 --gid=500 バケット名 マウント先
+
+
+参考
+---------------------------------------
+
+- http://qiita.com/kooohei/items/a14f22cb0381342d1861
+- http://dev.classmethod.jp/cloud/aws/how-to-use-s3fs-goofys/
+- http://takeshiyako.blogspot.jp/2016/04/s3-mount-goofys.html
