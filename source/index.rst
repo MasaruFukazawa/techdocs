@@ -15,6 +15,14 @@ Golang
 
    golang/type
    golang/variable
+   golang/const
+   golang/loop 
+   golang/function
+   golang/method
+   golang/import
+   golang/garbagecollection
+   golang/goroutine
+   golang/error
 
 Python
 =========================================
@@ -32,6 +40,7 @@ django
    :maxdepth: 1
    :glob:
 
+   django/create_custom_command
    django/release
 
 
