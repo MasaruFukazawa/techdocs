@@ -19,7 +19,7 @@ Golang
    golang/loop 
    golang/function
    golang/method
-   golang/import
+   golang/package
    golang/garbagecollection
    golang/goroutine
    golang/error
