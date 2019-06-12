@@ -6,23 +6,25 @@
 深澤ソフトウェア開発 技術ドキュメントへようこそ
 ====================================================================
 
-Golang
+Go
 =========================================
 
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   golang/type
-   golang/variable
-   golang/const
-   golang/loop 
-   golang/function
-   golang/method
-   golang/package
-   golang/garbagecollection
-   golang/goroutine
-   golang/error
+   go/type
+   go/variable
+   go/const
+   go/loop 
+   go/function
+   go/method
+   go/package
+   go/test
+   go/garbagecollection
+   go/goroutine
+   go/error
+   go/workspace
 
 Python
 =========================================
@@ -32,6 +34,7 @@ Python
    :glob:
 
    python/develop_mail_server
+   python/pydoc
 
 django
 =========================================
@@ -52,6 +55,9 @@ AWS
    :glob:
 
    aws/s3mount
+   aws/polly
+   aws/rekognition
+   aws/sns
 
 フロントエンド
 =========================================
