@@ -43,6 +43,7 @@ django
    :maxdepth: 1
    :glob:
 
+   django/access_smtp_server
    django/create_custom_command
    django/release
 
