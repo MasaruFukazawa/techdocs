@@ -93,8 +93,15 @@
 
 単方向チャネル
 
+- 関数にチャネルを渡すときに使うのか？
+
 .. code-block:: go
 
+    // 読み込み専用
+    readOnlychannel := make(<-char int)
+
+    // 送信専用
+    sendOnlychannel := make(char<- int)
 
 
 データ送信
@@ -122,3 +129,8 @@
 
     // チャネルを閉じる
     close(ch)
+
+
+競合の回避
+-----------------------------------
+
