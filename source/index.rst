@@ -20,11 +20,13 @@ Go
    go/function
    go/method
    go/package
-   go/test
    go/garbagecollection
    go/goroutine
    go/error
    go/workspace
+   go/test
+   go/tool
+   go/gin
 
 Python
 =========================================
@@ -33,6 +35,14 @@ Python
    :maxdepth: 1
    :glob:
 
+   python/variable
+   python/number
+   python/string
+   python/list
+   python/tuple
+   python/dict
+   python/set
+   python/devenv
    python/develop_mail_server
    python/pydoc
 

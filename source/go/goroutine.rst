@@ -1,7 +1,10 @@
 ゴルーチン & チャネル
 ===================================
 
-- 並行性モデル : CSP(Communicating Sequential Processes) を用いている
+Goにおける並行性モデル
+-----------------------------------
+
+- CSP(Communicating Sequential Processes) 
 	- 変数のほとんどの部分が、単一のプロセスに閉じ込められている
 
 ゴルーチン
