@@ -126,6 +126,7 @@
 
 .. code-block:: go
 
+    // データ構造への参照(ポインタ)
     ages := make(map[string]int)
 
     ages['alice'] = 20
@@ -161,7 +162,6 @@
 
     masami := new(Employee)
     **masami = Employee{2, 'Masami'}
-
 
 
 参照型

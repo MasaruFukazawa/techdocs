@@ -1,17 +1,9 @@
-ループ
-===================================
-
-for ループ
------------------------------------
+コマンドライン引数
+========================================
 
 .. code-block:: go
 
-    for [initialization]; [condition]; [post] {
-
-    }
-
-.. code-block:: go
-
+    $ emacs args.go
     package main
 
     import (
@@ -22,10 +14,6 @@ for ループ
     func main() {
 
         fmt.Println(os.Args)
-
-        for i:=1; i < len(os.Args[1:]); i++ {
-            fmt.Printf("%d : %s\n", i, os.Args[i])
-        }
 
         for i, arg := range os.Args[1:] {
             fmt.Printf("%d : %s\n", i, arg)
@@ -38,22 +26,13 @@ for ループ
 
     }
 
-
-while ループ
------------------------------------
-
 .. code-block:: go
 
-    while [condition] {
-
-    }
-
-
-無限ループ
------------------------------------
-
-.. code-block:: go
-
-    for {
-
-    }
+    $ go run args.go hoge foo baa 
+    [/var/folders/wy/dkb62gvd6fb73cvw1fhzn1h40000gn/T/go-build967091332/b001/exe/args hoge foo baa]
+    0 : hoge
+    1 : foo
+    2 : baa
+    hoge
+    foo
+    baa

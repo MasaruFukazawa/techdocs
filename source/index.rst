@@ -13,6 +13,9 @@ Go
    :maxdepth: 1
    :glob:
 
+   go/intro
+   go/start
+   go/args
    go/type
    go/variable
    go/const
@@ -22,6 +25,7 @@ Go
    go/package
    go/garbagecollection
    go/goroutine
+   go/printf
    go/error
    go/workspace
    go/test
