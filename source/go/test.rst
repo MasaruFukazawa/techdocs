@@ -63,3 +63,50 @@ sample_test.go
         }
 
     }
+
+カバレッジ
+-----------------------------------
+
+ドキュメント
+
+.. code-block:: go
+
+    $ go tool cover
+
+
+測定
+
+.. code-block:: go
+
+    $ go test -coverprofile=結果保存テキスト テスト対象ディレクトリパス
+
+
+結果閲覧
+
+.. code-block:: go
+
+    $ go tool cover -func=c.out
+
+
+ベンチマーク
+-----------------------------------
+
+.. code-block:: go
+
+   import "testing"
+
+   func TestAdd(b *testing.B) {
+   
+   }
+
+
+測定
+
+.. code-block:: go
+
+    $ go test -bench=テスト対象ディレクトリパス
+
+
+
+プロファイラ
+-----------------------------------

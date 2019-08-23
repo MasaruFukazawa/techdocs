@@ -22,6 +22,7 @@ Go
    go/loop 
    go/function
    go/method
+   go/interface
    go/package
    go/garbagecollection
    go/goroutine
@@ -82,6 +83,20 @@ AWS
    :glob:
 
    frontend/index
+
+読書ログ
+=========================================
+
+Pythonではじめるソフトウェアアーキテクチャ
+-----------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   readbooks/software_architecture_with_python/principles_of_software_architecture
+   readbooks/software_architecture_with_python/writing_modifi_able_and_readable_code
+
 
 Indices and tables
 ==================
