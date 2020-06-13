@@ -17,8 +17,6 @@ Pythonを始める
     [GCC 4.2.1 Compatible Apple LLVM 8.1.0 (clang-802.0.42)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
 
-.. image:: ../img/python/python_shell.png
-
 
 インタラクティブ シェルを終了する
 -----------------------------------
