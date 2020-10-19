@@ -38,6 +38,12 @@ DevOps
 
   - CloudFormation / terraform
 
+- コンテナ設定ファイル
+
+  - docker-composer.yml
+
+  - Dockerfile
+    
 - ミドルウェア構築スクリプト
 
   - Ansible
