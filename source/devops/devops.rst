@@ -54,10 +54,18 @@ DevOps
 
   - CodeBuild
 
+    - buildspec.yml
+
+    - スクリプトファイル
+
 - デプロイスクリプト
 
   - CodeDeploy
 
+    - appspec.yml
+
+    - スクリプトファイル
+    
 - アプリケーションコード
 
 - テストコード
