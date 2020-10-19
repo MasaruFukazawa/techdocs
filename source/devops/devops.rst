@@ -40,10 +40,12 @@ DevOps
 
 - コンテナ設定ファイル
 
-  - docker-composer.yml
+  - Docker
 
-  - Dockerfile
-    
+    - Dockerfile
+
+    - docker-composer.yml
+
 - ミドルウェア構築スクリプト
 
   - Ansible
