@@ -112,5 +112,52 @@ Bさん は改竄されたメッセージを受け取ることになってしま
 - もし、[メッセージ] が改竄されていた場合、ハッシュ値が異なるので、改竄されたと判断できる
 
 
+
 暗号
 ----------------------------------------
+
+- ルール(暗号化アルゴリズム) に従って、元の文字列を解読が困難な文字列に変換できる
+
+- ルール(復号化アルゴリズム) に従って、解読が困難な文字列を元の文字列に変換できる
+
+- 上記のことから、ルールが知られれば、暗号化された文章を、元の文章に戻すことができる
+
+  - 暗号化とは、 **時間稼ぎ** である
+
+
+
+**暗号化**
+    
+.. blockdiag::
+   :desctable:
+
+   blockdiag {
+     // Set numbered-badge and description to nodes.
+     A [numbered = 1, shape = "flowchart.input", label = "文字列", description = ""];
+     B [numbered = 2, label = "ルール", description = "暗号化アルゴリズム"];
+     C [numbered = 3, shape = "flowchart.input", label = "暗号化文字列", description = ""];
+
+     A -> B -> C;
+   }
+
+
+**復号化**
+   
+.. blockdiag::
+   :desctable:
+
+   blockdiag {
+     // Set numbered-badge and description to nodes.
+     A [numbered = 1, shape = "flowchart.input", label = "暗号化文字列", description = ""];
+     B [numbered = 2, label = "ルール", description = "復号化アルゴリズム"];
+     C [numbered = 3, shape = "flowchart.input", label = "文字列", description = ""];
+
+     A -> B -> C;
+   }
+   
+
+
+暗号アルゴリズムと鍵
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- 

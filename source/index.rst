@@ -70,10 +70,30 @@ AWS
    :maxdepth: 1
    :glob:
 
+   aws/codebuild
    aws/s3mount
    aws/polly
    aws/rekognition
    aws/sns
+
+DevOps
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   devops/devops
+   
+テスト
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   test/tdd
+
 
 フロントエンド
 =========================================
