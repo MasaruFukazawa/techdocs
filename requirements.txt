@@ -12,3 +12,4 @@ sphinxcontrib-seqdiag==3.0.0
 sphinxcontrib-serializinghtml==2.0.0
 furo==2024.8.6
 sphinx-rtd-theme==3.0.2
+sphinxcontrib-blockdiag==3.0.0

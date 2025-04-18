@@ -1,11 +1,21 @@
 @import url("classic.css");
 
+/*
 div.body {
     min-width: 450px;
     max-width: none;
 }
+*/
 
+/*
 table.align-default {
     margin-left: 0%;
     margin-right: 0%;
+}
+*/
+
+h2 {
+    background-color: #ececec; /* 好きな色に変更可能 */
+    padding: 0.5em;
+    border-radius: 5px;
 }
