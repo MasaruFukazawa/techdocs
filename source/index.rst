@@ -76,6 +76,17 @@ AWS
    aws/rekognition
    aws/sns
 
+
+Docker
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   docker/docker
+
+
 DevOps
 =========================================
 
@@ -84,7 +95,18 @@ DevOps
    :glob:
 
    devops/devops
-   
+
+
+設計技術
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   design/uml
+
+
 テスト
 =========================================
 
@@ -113,20 +135,6 @@ TIPS
    :glob:
 
    tips/hash-cipher
-
-
-読書ログ
-=========================================
-
-Pythonではじめるソフトウェアアーキテクチャ
---------------------------------------------
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   readbooks/software_architecture_with_python/principles_of_software_architecture
-   readbooks/software_architecture_with_python/writing_modifi_able_and_readable_code
 
 
 Indices and tables
