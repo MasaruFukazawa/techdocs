@@ -13,23 +13,7 @@ Go
    :maxdepth: 1
    :glob:
 
-   go/intro
-   go/start
-   go/args
-   go/type
-   go/variable
-   go/const
-   go/loop 
-   go/function
-   go/method
-   go/interface
-   go/package
-   go/garbagecollection
-   go/goroutine
-   go/printf
-   go/error
-   go/workspace
-   go/test
+   go/index
    go/tool
    go/gin
 
@@ -40,13 +24,7 @@ Python
    :maxdepth: 1
    :glob:
 
-   python/variable
-   python/number
-   python/string
-   python/list
-   python/tuple
-   python/dict
-   python/set
+   python/basic/index
    python/devenv
    python/develop_mail_server
    python/pydoc
@@ -61,6 +39,7 @@ django
    django/access_smtp_server
    django/create_custom_command
    django/release
+   django/django_tips
 
 
 AWS
@@ -104,6 +83,7 @@ DevOps
    :maxdepth: 1
    :glob:
 
+   design/index
    design/uml
 
 
