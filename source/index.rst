@@ -108,6 +108,16 @@ DevOps
    frontend/index
 
 
+データ分析
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   data_analytics/etl
+
+
 TIPS
 =========================================
 
