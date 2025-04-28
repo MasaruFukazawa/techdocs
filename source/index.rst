@@ -24,6 +24,7 @@ Python
    :maxdepth: 1
    :glob:
 
+   python/zen
    python/basic/index
    python/devenv
    python/develop_mail_server
@@ -75,6 +76,16 @@ DevOps
    :glob:
 
    devops/devops
+
+
+SRE
+=========================================
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   sre/index
 
 
 設計技術
