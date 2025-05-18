@@ -122,22 +122,22 @@ Adjusted Rand Index:調整済みランダムインデックス
 翻訳
 -----------------------------------------
 
-BLEU
+BLEU : Bilingual Evaluation Understudy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- 生成された翻訳と参照翻訳のn-gramの一致度を測定する
+- 人間の翻訳（参照文）と、機械翻訳の出力（候補文）とのn-gramの重なり度合いを評価する指標
 
-METEOR
+METEOR : Metric for Evaluation of Translation with Explicit ORdering
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - BLEUに同義語と語形変化への対応を追加した指標
 
-ROUGE
+ROUGE : Recall-Oriented Understudy for Gisting Evaluation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- 要約や翻訳でのリコール指向の指標
+- 人間の要約（参照文）と機械生成の要約（候補文）を比較し、どれだけ内容が一致しているかを評価する指標
 
-BERT
+BERT : Bidirectional Encoder Representations from Transformers 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - 埋め込みモデルを用いて、生成文と参照文の意味的類似性を評価する指標
