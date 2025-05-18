@@ -128,6 +128,7 @@ SRE
    :glob:
 
    data_analytics/etl
+   data_analytics/metrics
 
 
 TIPS
